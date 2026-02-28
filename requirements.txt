@@ -1,0 +1,14 @@
+# Core dependencies
+pandas>=2.0.0,<3.0.0
+streamlit>=1.28.0,<2.0.0
+protobuf>=5.27.0,<6.0.0
+
+# Testing
+pytest>=7.4.0,<8.0.0
+
+# Databricks dependencies (required for deployment, optional for local testing)
+databricks-sql-connector>=3.0.0,<4.0.0
+databricks-sdk>=0.18.0,<1.0.0
+
+# Date utilities (if needed)
+python-dateutil>=2.8.0,<3.0.0
